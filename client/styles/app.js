@@ -12,11 +12,6 @@ export const global = {
     textDecoration : 'none'
   },
 
-  '*' : {
-    margin    : 15,
-    textAlign : 'center'
-  },
-
   input : {
     padding      : 5,
     borderRadius : 6,
@@ -26,4 +21,18 @@ export const global = {
 
 export const btnArea = {
   margin : '60px 0 20px 0'
+};
+
+export const leftPanel = {
+  display       : 'inline-block',
+  verticalAlign : 'top',
+  width         : '18%',
+  height        : '100%'
+};
+
+export const rightPanel = {
+  display       : 'inline-block',
+  verticalAlign : 'top',
+  width         : '82%',
+  height        : '100%'
 };

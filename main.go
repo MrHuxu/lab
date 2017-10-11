@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/MrHuxu/react-go-boilerplate/server/web"
+	"github.com/MrHuxu/lab/server/web"
 )
 
 func main() {

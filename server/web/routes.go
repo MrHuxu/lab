@@ -17,9 +17,8 @@ func (server *Server) RegisterRoutes() {
 	indexRoutes := server.Engine.Group("/")
 	{
 		indexRoutes.GET("/", Index)
-		indexRoutes.GET("/get", Index)
-		indexRoutes.GET("/post", Index)
-		indexRoutes.GET("/random", Index)
+		indexRoutes.GET("/music-player", Index)
+		indexRoutes.GET("/tree-visualizer", Index)
 	}
 
 	testRoutes := server.Engine.Group("/test")
